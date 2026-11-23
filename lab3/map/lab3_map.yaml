@@ -1,6 +1,6 @@
 lanelet_check:
   passed: true
-  sim: false
+  sim: true
   goal_behind: 1.0
   lanelet_sha256: 2dbe6a04f4c6fcd75a50409af2bc515a95b1aecb04f7077f40d1936834fe3380
   results:
@@ -21,9 +21,9 @@ lanelet_check:
     value: 0.47 m behind the origin
     reason: ''
   - requirement: sim lap
-    ok: null
-    value: ''
-    reason: skipped (--no-sim)
+    ok: true
+    value: 97.7 m in 133 s sim
+    reason: ''
   start_hint:
     s_origin: 76.337
     off_loop: 0.249
@@ -35,5 +35,14 @@ lanelet_check:
     goal_behind: 1.0
     heading_deg: -179.886
     axis: -x
-  time: 2026-11-20T22:08:08+0800
-  autosdv: 84a4e735337fc79aa2305bba34bcfa90e9d9c6b5
+  sim_lap:
+    ok: true
+    reason: arrived
+    value: 97.7 m in 133 s sim
+    wall_s: 148.6
+    lap_s: 133.3
+    run_dir: ''
+    samples: 9481
+    travel_m: 97.73
+  time: 2026-11-23T15:13:03+0800
+  autosdv: 6c8ddc3a114612f1b1ed26bd0b850ffb4cb4f33a+dirty
