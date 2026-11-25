@@ -6,7 +6,7 @@ cd "$(git rev-parse --show-toplevel)"
 cfg=$PWD/src/lab/autosdv_lab3/config
 if [ -n "$DISPLAY" ]; then rviz=true; else rviz=false; fi
 play_launch launch autosdv_launch autosdv.launch.yaml \
-    vehicle_id:=car_b \
+    vehicle_id:=car_c \
     map_path:=$PWD/lab3/map \
     use_gnss:=false \
     use_ntrip:=false \
