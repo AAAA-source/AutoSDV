@@ -4,7 +4,7 @@
 cd "$(git rev-parse --show-toplevel)"
 cfg=$PWD/src/lab/autosdv_lab3/config
 play_launch launch autosdv_launch autosdv.launch.yaml \
-    vehicle_id:=car_c \
+    vehicle_id:=car_b \
     map_path:=$PWD/lab3/map \
     use_gnss:=false \
     use_ntrip:=false \
